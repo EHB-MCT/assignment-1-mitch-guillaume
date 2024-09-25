@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Challenge_1}",
+            "name": "Debug swift test",
+            "program": "${workspaceFolder:Challenge_1}/.build/debug/swift test",
+            "preLaunchTask": "swift: Build Debug swift test"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Challenge_1}",
+            "name": "Release swift test",
+            "program": "${workspaceFolder:Challenge_1}/.build/release/swift test",
+            "preLaunchTask": "swift: Build Release swift test"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Challenge_1}",
+            "name": "Debug Challenge 1",
+            "program": "${workspaceFolder:Challenge_1}/.build/debug/Challenge 1",
+            "preLaunchTask": "swift: Build Debug Challenge 1"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Challenge_1}",
+            "name": "Release Challenge 1",
+            "program": "${workspaceFolder:Challenge_1}/.build/release/Challenge 1",
+            "preLaunchTask": "swift: Build Release Challenge 1"
+        }
+    ]
+}
