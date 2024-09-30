@@ -4,6 +4,7 @@
 *.xcodeproj/*
 !*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata
+Challenge/Challenge.xcodeproj/project.xcworkspace/xcuserdata/Guillaume.xc…/UserInterfaceState.xcuserstate
 
 #
 # *.lock - this is used and abused by many editors for many different things.
