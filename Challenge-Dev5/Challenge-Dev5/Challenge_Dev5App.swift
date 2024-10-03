@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct Challenge_Dev5App: App {
-    v@StateObject var model = ObjectViewModel()
+    @StateObject var model = ObjectViewModel()
     
     var body: some Scene {
         WindowGroup {
