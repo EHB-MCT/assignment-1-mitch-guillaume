@@ -14,6 +14,7 @@ struct DetailedPokemon: Codable, Identifiable {
     
     let abilities: [Ability]
     let moves: [Move]
+    let types: [PokeType]
     
     struct Ability: Codable {
         let ability: AbilityInfo
@@ -31,11 +32,23 @@ struct DetailedPokemon: Codable, Identifiable {
         }
     }
     
+    struct PokeType: Codable {
+        let type: TypeInfo
+        
+        struct TypeInfo: Codable {
+            let name: String
+        }
+    }
+    
     var abilityNames: [String] {
         abilities.map { $0.ability.name }
     }
     
     var moveNames: [String] {
         moves.map { $0.move.name }
+    }
+    
+    var typeNames: [String] {
+        types.map{ $0.type.name}
     }
 }
