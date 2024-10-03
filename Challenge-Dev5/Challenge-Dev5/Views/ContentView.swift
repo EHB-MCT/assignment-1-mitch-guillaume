@@ -21,14 +21,14 @@ struct ContentView: View {
                 } else {
                     List(model.object) {
                         object in
-                        NavigationLink(destination: ObjectDetailView(), label: {
+                        NavigationLink(destination: ObjectDetailView(pokemonURL: object.url), label: {
                             Text(object.name)
                         })
                     }
                 }
             }
             
-            .navigationTitle("Challenge")
+            .navigationTitle("Pokemon List")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

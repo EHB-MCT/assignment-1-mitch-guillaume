@@ -34,7 +34,14 @@ final class APIController {
             throw HTTPError.badResponse
         }
     }
-    func detailedPokemon() {
-    
-    }
+    func detailedPokemon(from url: URL) async throws -> DetailedPokemon {
+            let (data, response) = try await URLSession.shared.data(from: url)
+            
+            guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
+                throw HTTPError.badResponse
+            }
+            
+            let decodedPokemon = try JSONDecoder().decode(DetailedPokemon.self, from: data)
+            return decodedPokemon
+        }
 }
