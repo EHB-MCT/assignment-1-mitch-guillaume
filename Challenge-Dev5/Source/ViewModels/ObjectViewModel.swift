@@ -14,7 +14,7 @@ final class ObjectViewModel: ObservableObject {
     
     init() {
         Task{
-            await fetchObjects()
+                await fetchObjects()
         }
     }
     
