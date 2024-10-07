@@ -1,15 +1,22 @@
 # IOS APP for Dev5
 This is an app made for IOS with Switch for our Dev5 school course. Currently this app is a limited pokedex using the PokeAPI to pick up the first 151 pokémon. Each pokemon has basic information such as height, abilities and all possible moves it can learn.
 
-<!--Next, read this example and adapt it to your project.-->
-<!---->
-<!--If you want to add more sections, please do so after the existing ones (avoid burying your sources under a lot of text!).-->
+## Installing
+IDK how to have people install it yet...
 
-<!--Live link: [website.be](website.be) (optional)-->
+## Requirements
+Xcode
+Base iOS packages (installed with or through Xcode)
 
-<!--## Up & running (optional)-->
-<!--- This should contain step by step instructions to run your project-->
-<!--- Login information is mentioned here if applicable.-->
+## Controllers
+Project files that handle the connection to databases or API calls.
+Use CamelCase to name files.
+
+## Models
+Models used to parse data into from the database or API using the controllers. View them as objects.
+Use CamelCase to name files.
+Use tags "Codable" and "Identifiable" to make the models discoverable (ex: "struct DetailedPokemon: Codable, Identifiable")
+
 
 ## Sources 
 
