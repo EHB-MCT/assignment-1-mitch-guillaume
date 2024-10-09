@@ -1,14 +1,10 @@
 
 *.xcuserstate
-Challenge/Challenge.xcodeproj/project.xcworkspace/xcuserdata/Guillaume.xc…/UserInterfaceState.xcuserstate
-.DS_Store
-
 # see https://gist.github.com/muhasturk/df28ec9d2cc18bf1cfc8
 # see https://github.com/github/gitignore/blob/master/Swift.gitignore
 
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata
+xcuserdata/
+project.xcworkspace/
 
 #
 # *.lock - this is used and abused by many editors for many different things.
@@ -115,5 +111,3 @@ Temporary Items
 
 # vim
 *.swp
-/Challenge-Dev5/Challenge-Dev5.xcodeproj
-Challenge-Dev5/Challenge-Dev5.xcodeproj/project.pbxproj
