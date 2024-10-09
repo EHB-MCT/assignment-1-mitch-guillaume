@@ -38,7 +38,7 @@
 		F0BB6F382CB6D43D000133CF /* Exceptions for "Other" folder in "Challenge-Dev5" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				TextFiles/placeholder.md,
+				TextFiles/PlaceholderTF.md,
 			);
 			target = F060F0C72CAEA3F0004C4AD2 /* Challenge-Dev5 */;
 		};
@@ -49,7 +49,7 @@
 			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
 			buildPhase = F060F0C42CAEA3F0004C4AD2 /* Sources */;
 			membershipExceptions = (
-				TextFiles/placeholder.md,
+				TextFiles/PlaceholderTF.md,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
