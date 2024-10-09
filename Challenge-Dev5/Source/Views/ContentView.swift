@@ -1,6 +1,7 @@
 //
 //  ContentView.swift
-//  Challenge
+//
+//  Displays a list of pokémon from the PokéAPI
 //
 //  Created by Guillaume Dochy on 26/09/2024.
 //

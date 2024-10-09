@@ -1,6 +1,7 @@
 //
 //  Challenge_Dev5App.swift
-//  Challenge-Dev5
+//
+// Main entrypoint of the app.
 //
 //  Created by Guillaume Dochy on 03/10/2024.
 //
