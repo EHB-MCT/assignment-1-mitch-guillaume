@@ -8,6 +8,11 @@
 import Foundation
 import Combine
 
+// The `ObjectDetailViewModel` class is an implementation of the `ObservableObject` protocol,
+// which manages the state and data associated with the detailed view of a Pokémon object.
+// It handles the fetching of Pokémon details from an API and provides the relevant data
+// to be displayed in the user interface.
+
 final class ObjectDetailViewModel: ObservableObject {
     
     @Published var detailedPokemon: DetailedPokemon?

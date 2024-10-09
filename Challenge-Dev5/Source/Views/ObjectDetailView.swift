@@ -1,6 +1,7 @@
 //
 //  ObjectDetailView.swift
-//  Challenge
+//
+//  Displays the details of a pokémon selected from the list of pokémon.
 //
 //  Created by Guillaume Dochy on 26/09/2024.
 //

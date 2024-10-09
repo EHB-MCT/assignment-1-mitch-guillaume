@@ -18,6 +18,8 @@ Swift 6.0 or higher
 
 Please document your code correctly by adding comments at the top describing the function of the file as well as inline comments to further enhance the comprehension of the code by newcomers.
 
+If you add elements to an already existing module, please use "//MARK:" to organize and mark sections of code that were added, "//TODO:" to indicates a task or reminder for future implementation, "FIXME:" to mark parts of the code that need fixing and "MARK: -" to add a separator (horizontal line in Xcode) for better visual separation between sections
+
 ## Guidelines
 
 Don't be a bitch with a small ego. Everybody can make mistakes. Corrections with the use of verbal abuse as well as threats will not be tolerated and the guilty will be banned without a warning or second chance.

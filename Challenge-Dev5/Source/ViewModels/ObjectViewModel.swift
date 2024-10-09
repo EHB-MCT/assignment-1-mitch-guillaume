@@ -1,12 +1,16 @@
 //
 //  ObjectViewModel.swift
-//  Challenge
+//
 //
 //  Created by Guillaume Dochy on 26/09/2024.
 //
 
 import Combine
 import Foundation
+
+// The `ObjectViewModel` class is an implementation of the `ObservableObject` protocol,
+// responsible for fetching and storing a collection of Pokémon objects. It initializes
+// the fetching process as soon as an instance is created.
 
 final class ObjectViewModel: ObservableObject {
     
@@ -18,8 +22,7 @@ final class ObjectViewModel: ObservableObject {
         }
     }
     
-    
-    // MARK: Private
+    //MARK: - Private
     
     private let controller = APIController()
     
