@@ -4,7 +4,7 @@ This is an app made for IOS with Switch and SwitchUI for our Dev5 school course.
 
 ## Installing
 
-Still under investigation.
+Clone the repository on your machine in a desired place. After this, browse to the folder, open the "Challenge-Dev5" folder and open the "xcode.project" file. Be wary of fetching before committing. If prompted with the option to use the xcode or disk version of the "xcode.project" file, please use the disk version to prevent corruption inside the files.
 
 ## Requirements
 
