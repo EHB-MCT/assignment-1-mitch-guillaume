@@ -34,26 +34,6 @@
 		F0F2D31D2CB3E6A9007EDCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F0BB6F382CB6D43D000133CF /* Exceptions for "Other" folder in "Challenge-Dev5" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				TextFiles/PlaceholderTF.md,
-			);
-			target = F060F0C72CAEA3F0004C4AD2 /* Challenge-Dev5 */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		F0BB6F392CB6D43D000133CF /* Exceptions for "Other" folder in "Compile Sources" phase from "Challenge-Dev5" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = F060F0C42CAEA3F0004C4AD2 /* Sources */;
-			membershipExceptions = (
-				TextFiles/PlaceholderTF.md,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		F060F0CA2CAEA3F0004C4AD2 /* Source */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -67,10 +47,6 @@
 		};
 		F0F2D33D2CB4234D007EDCBF /* Other */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F0BB6F382CB6D43D000133CF /* Exceptions for "Other" folder in "Challenge-Dev5" target */,
-				F0BB6F392CB6D43D000133CF /* Exceptions for "Other" folder in "Compile Sources" phase from "Challenge-Dev5" target */,
-			);
 			path = Other;
 			sourceTree = "<group>";
 		};
